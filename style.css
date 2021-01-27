@@ -12,12 +12,43 @@ h2{
 p{
     color: dimgray;
 }
+/* section{
+    height: 500px;
+    padding-bottom: 150px;
+} */
+#top-banner{    
+    background-image: url('images/pic5.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 150px;
+
+}
+
+
+.dream-area{
+    background-image: url('images/pic7.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+    padding-bottom: 150px;
+}
+
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
+ 
 .half-width img{
     width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
